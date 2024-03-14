@@ -1,16 +1,10 @@
-# basketball_counter
+# Basketball Counter App
+This is a simple basketball counter app designed to keep track of scores for basketball games. It allows users to increment scores for each team and reset the scores when needed.
 
-A new Flutter project.
+Features
+- Increment scores for each team with a tap of a button.
+- View the scores of both teams simultaneously.
+- Reset scores to zero with a single button press.
 
-## Getting Started
+https://github.com/Absattar22/basketball_counter/assets/116181912/deff9b44-73d0-4bf4-8cb8-572a9fda9a6f
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
