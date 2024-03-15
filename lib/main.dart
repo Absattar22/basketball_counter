@@ -36,17 +36,13 @@ class _PointsCounterState extends State<PointsCounter> {
                   height: 500,
                   child: Column(
                     children: [
-                      Image.asset('images/lakers.png', width: 100, height: 100),
+                      Image.asset('images/Raptors.png',
+                          width: 150, height: 150),
                       const Padding(padding: EdgeInsets.only(top: 10)),
-                      const Text(
-                        'Team A',
-                        style: TextStyle(
-                            fontSize: 24, fontWeight: FontWeight.bold),
-                      ),
                       const Padding(padding: EdgeInsets.only(top: 10)),
                       Text('$TeamAPoints',
-                          style: const TextStyle(fontSize: 80)),
-                      const Padding(padding: EdgeInsets.only(top: 20)),
+                          style: const TextStyle(fontSize: 90)),
+                      const Padding(padding: EdgeInsets.only(top: 10)),
                       ElevatedButton(
                           style: ElevatedButton.styleFrom(
                               minimumSize: const Size(170, 50),
@@ -64,7 +60,7 @@ class _PointsCounterState extends State<PointsCounter> {
                             'Add 1 Point',
                             style: TextStyle(fontSize: 20, color: Colors.white),
                           )),
-                      const Padding(padding: EdgeInsets.only(top: 20)),
+                      const Padding(padding: EdgeInsets.only(top: 10)),
                       ElevatedButton(
                           style: ElevatedButton.styleFrom(
                               minimumSize: const Size(170, 50),
@@ -82,7 +78,7 @@ class _PointsCounterState extends State<PointsCounter> {
                             'Add 2 Points',
                             style: TextStyle(fontSize: 20, color: Colors.white),
                           )),
-                      const Padding(padding: EdgeInsets.only(top: 20)),
+                      const Padding(padding: EdgeInsets.only(top: 10)),
                       ElevatedButton(
                           style: ElevatedButton.styleFrom(
                               minimumSize: const Size(170, 50),
@@ -104,7 +100,7 @@ class _PointsCounterState extends State<PointsCounter> {
                   ),
                 ),
                 const SizedBox(
-                  height: 500,
+                  height: 490,
                   child: VerticalDivider(
                     color: Colors.grey,
                     thickness: 1,
@@ -114,18 +110,12 @@ class _PointsCounterState extends State<PointsCounter> {
                   height: 500,
                   child: Column(
                     children: [
-                      Image.asset('images/warriors.png',
-                          width: 100, height: 100),
+                      Image.asset('images/pit.png', width: 150, height: 150),
                       const Padding(padding: EdgeInsets.only(top: 10)),
-                      const Text(
-                        'Team B',
-                        style: TextStyle(
-                            fontSize: 24, fontWeight: FontWeight.bold),
-                      ),
                       const Padding(padding: EdgeInsets.only(top: 10)),
                       Text('$TeamBPoints',
-                          style: const TextStyle(fontSize: 80)),
-                      const Padding(padding: EdgeInsets.only(top: 20)),
+                          style: const TextStyle(fontSize: 90)),
+                      const Padding(padding: EdgeInsets.only(top: 10)),
                       ElevatedButton(
                           style: ElevatedButton.styleFrom(
                               minimumSize: const Size(170, 50),
@@ -143,7 +133,7 @@ class _PointsCounterState extends State<PointsCounter> {
                             'Add 1 Point',
                             style: TextStyle(fontSize: 20, color: Colors.white),
                           )),
-                      const Padding(padding: EdgeInsets.only(top: 20)),
+                      const Padding(padding: EdgeInsets.only(top: 10)),
                       ElevatedButton(
                           style: ElevatedButton.styleFrom(
                               minimumSize: const Size(170, 50),
@@ -161,7 +151,7 @@ class _PointsCounterState extends State<PointsCounter> {
                             'Add 2 Points',
                             style: TextStyle(fontSize: 20, color: Colors.white),
                           )),
-                      const Padding(padding: EdgeInsets.only(top: 20)),
+                      const Padding(padding: EdgeInsets.only(top: 10)),
                       ElevatedButton(
                           style: ElevatedButton.styleFrom(
                               minimumSize: const Size(170, 50),
@@ -191,7 +181,7 @@ class _PointsCounterState extends State<PointsCounter> {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(5.0),
                     ),
-                    backgroundColor: const Color.fromARGB(255, 204, 26, 76)),
+                    backgroundColor: const Color.fromARGB(255, 73, 138, 224)),
                 onPressed: () {
                   setState(() {
                     TeamAPoints = 0;
@@ -200,7 +190,8 @@ class _PointsCounterState extends State<PointsCounter> {
                 },
                 child: const Text(
                   'Reset Points',
-                  style: TextStyle(fontSize: 20, color: Colors.white),
+                  style: TextStyle(
+                      fontSize: 20, color: Color.fromARGB(255, 255, 255, 255)),
                 )),
             const Spacer()
           ],
