@@ -7,3 +7,7 @@ Features
 - Reset scores to zero with a single button press.
 
 
+
+https://github.com/Absattar22/basketball_counter/assets/116181912/d678be89-61d1-4e29-bf3e-6113c5233475
+
+
