@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(PointsCounter());
+  runApp(const PointsCounter());
 }
 
 class PointsCounter extends StatefulWidget {
+  const PointsCounter({super.key});
+
   @override
   State<PointsCounter> createState() => _PointsCounterState();
 }
@@ -41,7 +43,10 @@ class _PointsCounterState extends State<PointsCounter> {
                       const Padding(padding: EdgeInsets.only(top: 10)),
                       const Padding(padding: EdgeInsets.only(top: 10)),
                       Text('$TeamAPoints',
-                          style: const TextStyle(fontSize: 90)),
+                          style: const TextStyle(
+                            fontSize: 90,
+                            fontWeight: FontWeight.bold,
+                          )),
                       const Padding(padding: EdgeInsets.only(top: 10)),
                       ElevatedButton(
                           style: ElevatedButton.styleFrom(
@@ -114,7 +119,10 @@ class _PointsCounterState extends State<PointsCounter> {
                       const Padding(padding: EdgeInsets.only(top: 10)),
                       const Padding(padding: EdgeInsets.only(top: 10)),
                       Text('$TeamBPoints',
-                          style: const TextStyle(fontSize: 90)),
+                          style: const TextStyle(
+                            fontSize: 90,
+                            fontWeight: FontWeight.bold,
+                          )),
                       const Padding(padding: EdgeInsets.only(top: 10)),
                       ElevatedButton(
                           style: ElevatedButton.styleFrom(
@@ -174,7 +182,7 @@ class _PointsCounterState extends State<PointsCounter> {
                 )
               ],
             ),
-            const Padding(padding: EdgeInsets.only(top: 40)),
+            const Padding(padding: EdgeInsets.only(top: 80)),
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
                     minimumSize: const Size(150, 50),
