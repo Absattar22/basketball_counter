@@ -6,14 +6,8 @@ Features
 - View the scores of both teams simultaneously.
 - Reset scores to zero with a single button press.
 
-<<<<<<< HEAD
-https://github.com/Absattar22/basketball_counter/assets/116181912/deff9b44-73d0-4bf4-8cb8-572a9fda9a6f
-
-=======
-
-https://github.com/Absattar22/basketball_counter/assets/116181912/b3baa3c2-983b-4b06-842a-fa706776f5bc
 
 
+https://github.com/Absattar22/basketball_counter/assets/116181912/d678be89-61d1-4e29-bf3e-6113c5233475
 
 
->>>>>>> 0e2f4e19bb1bdbc20149d266571182ba303cf4f0
